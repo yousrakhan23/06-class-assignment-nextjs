@@ -26,29 +26,30 @@ const Header = () => {
 
             </header>
 
-
-            <nav className="w-[1577px] h-[72px] top-[170px] left-[100px] border-[1px] pr[64px] pl-[64px] bg-[#FFFFFF] border-[#676767] mt-[20px] ">
+            
+            <nav className="w-[1577px] h-[72px] top-[170px] left-[100px] border-b-[1px] pr[64px] pl-[64px] bg-[#FFFFFF] border-[#676767] mt-[20px] ">
+                <ul className="w-[687px] h-[44px] gap-[32px] ml-[500px] justify-center pt-3">
+                    <li>
+                        <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] border-b-[1px] border-[#000000] ml-[24px] ">Home</a>
+                        <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">Courses</a>
+                        <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">Services</a>
+                        <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">Achievement</a>
+                        <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">About Us</a>
+                        <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">Testimonial</a>
+                         <button className="">Login</button>
+                         <button>Sign Up</button>
+                    </li>
+                    
+                </ul>
+               
                 <div className="w-[1152px] h-[44px] justify-between" >
-                    <Image 
-                    src={logo}
-                    alt="logo"
-                    width={130.6}
-                    height={41}
-                    className="pt-[17px] pb-[29px] gap-[10.5px]"
-                     />
-
-                     <div className="w-[687px] h-[44px] gap-[32px]">
-                        <ul>
-                            <li>
-                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] border-b-[1px] border-[#000000]">Home</a>
-                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">About</a>
-                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">Services</a>
-                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">Achievement</a>
-                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">About Us</a>
-                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">Testimonial</a>
-                            </li>
-                        </ul>
-                     </div>
+                    <Image
+                        src={logo}
+                        alt="logo"
+                        width={130.6}
+                        height={41}
+                        className="pt-[17px] pb-[29px] gap-[10.5px]"
+                    />
 
 
                 </div>
