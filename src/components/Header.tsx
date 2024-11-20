@@ -38,32 +38,22 @@ const Header = () => {
                     
             <nav className="w-[1577px] h-[72px] top-[170px] left-[100px] border-b-[1px] pr[64px] pl-[64px] bg-[#FFFFFF] border-[#676767] ">
                 <ul className="w-[687px] h-[44px] gap-[32px] ml-[500px] justify-center">
-                    <li>
+                    <li className="flex justify-center ">
                         <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] border-b-[1px] border-[#000000] ml-[24px] ">Home</a>
                         <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">Courses</a>
                         <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">Services</a>
                         <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">Achievement</a>
                         <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">About Us</a>
                         <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] ml-[24px]">Testimonial</a>
-                        <div className="pr-[17px]">
+                        <div className="flex justify-center">
                             <button className="w-[80px] h-[40px] pt-[8px] pr-[20px] pb-[8px] pl-[20px] gap-[8px] border border-[#000000] rounded-[5px]">Login</button>
-                            <button className="w-[100px] h-[40px] pt-[8px] pr-[20px] pb-[8px] pl-[20px] gap-[8px] border border-[#000000] rounded-[5px] bg-[#000000] text-white">Sign Up</button>          
+                            <button className="w-[100px] h-[40px] pt-[8px] pr-[20px] pb-[8px] pl-[20px] gap-[8px] border border-[#000000] rounded-[5px] bg-[#000000] text-[#ffffff]">Sign Up</button>          
                         </div>
                        
                     </li>
                 </ul>
                
-                {/* <div className="w-[1152px] h-[44px] justify-between" >
-                    <Image
-                        src={logo}
-                        alt="logo"
-                        width={130.6}
-                        height={41}
-                        className="pt-[17px] pb-[29px] gap-[10.5px]"
-                    />
-
-
-                </div> */}
+               
             </nav>
             
 
