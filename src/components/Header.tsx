@@ -37,8 +37,17 @@ const Header = () => {
                     className="pt-[17px] pb-[29px] gap-[10.5px]"
                      />
 
-                     <div>
-                        
+                     <div className="w-[687px] h-[44px] gap-[32px]">
+                        <ul>
+                            <li>
+                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px] border-b-[1px] border-[#000000]">Home</a>
+                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">About</a>
+                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">Services</a>
+                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">Achievement</a>
+                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">About Us</a>
+                                <a href="#" className="w-[64px] h-[44px] p-[10px] gap-[10px]">Testimonial</a>
+                            </li>
+                        </ul>
                      </div>
 
 
