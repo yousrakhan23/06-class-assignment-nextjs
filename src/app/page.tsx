@@ -8,10 +8,6 @@ import OurTeam from "@/components/OurTeam";
 import CustomerTestimonial from "@/components/CustomerTestimonials";
 import Footer from "@/components/Footer";
 
-
-
-
-
 const Home = () => {
   return (
     <div >

@@ -4,9 +4,7 @@ import Image from "next/image";
 import team3 from "../public/images/team3.png";
 import team1 from "../public/images/team1.png";
 import team6 from "../public/images/team6.png";
-
-
-
+import sliderArrow from "../public/images/Slider Buttons.png"
 
 const CustomerTestimonial = () => {
   const testimonials = [
@@ -14,28 +12,25 @@ const CustomerTestimonial = () => {
       image: team3,
       name: "Joseph Ngumbau",
       role: "Software Developer",
-      testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+      testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
     },
     {
       image: team1,
       name: "Erick Kipkemboi",
       role: "Scrum Master",
-      testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+      testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
     },
     {
       image: team6,
       name: "Stephen Kerubo",
       role: "UI/UX Designer",
-      testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+      testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
     },
   ];
 
   return (
-    <section className="mx-auto px-4 py-16 bg-[#F7F7F7]">
-      <div className="mb-12 text-center">
+    <section className="mx-auto px-4 py-16">
+      <div className="mb-12">
         <h2 className="text-[36px] sm:text-[48px] font-bold text-[#000000] px-4 sm:px-8">
           Customer Testimonials
         </h2>
@@ -47,7 +42,7 @@ const CustomerTestimonial = () => {
         {testimonials.map((customer, index) => (
           <div
             key={index}
-            className="border border-black p-6 rounded-lg bg-white shadow-md"
+            className="border border-black p-6 bg-white shadow-md"
           >
             <div className="flex mb-4 text-[20px] sm:text-[24px] text-black py-2">★★★★★</div>
             <p className="text-[14px] sm:text-[16px] text-[#000000] mb-4">
@@ -74,10 +69,10 @@ const CustomerTestimonial = () => {
         ))}
       </div>
 
-      {/* Pagination and Navigation */}
-      <div className="flex justify-center items-center mt-8 gap-8 px-4 sm:px-8 py-8">
-        {/* Pagination Dots */}
-        <div className="flex justify-center items-center gap-2">
+      
+      <div className="flex mt-8 gap-8 px-4 sm:px-8 py-8">
+    
+        <div className="flex gap-2">
           <span className="w-2 h-2 bg-[#000000] rounded-full"></span>
           <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
           <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
@@ -85,7 +80,17 @@ const CustomerTestimonial = () => {
           <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
           <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
         </div>
-        {/* Right Arrow */}
+
+        <div>
+          <Image 
+            src={sliderArrow} 
+            alt="slider arrow" 
+            width={111} 
+            height={48} 
+            className="ml-[78rem] "
+            />
+        </div>
+        
       </div>
     </section>
   );

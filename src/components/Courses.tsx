@@ -68,7 +68,7 @@ const Courses: React.FC = () => {
 
       <section className="max-w-7xl mx-auto px-4 py-5">
         <div className="flex justify-center mb-16 gap-8">
-          <span className="text-[14px] sm:text-[16px] text-[#000000]">Popular</span> 
+          <span className="text-[14px] sm:text-[16px] text-[#000000] border-b-[1px] border-[#676767]">Popular</span> 
           <span className="text-[14px] sm:text-[16px] text-[#000000]">Recommended</span> 
           <span className="text-[14px] sm:text-[16px] text-[#000000]">Best Price</span> 
         </div>
@@ -98,7 +98,7 @@ const Courses: React.FC = () => {
                 <button className="px-6 py-2 text-black border-2 border-black bg-white rounded-md transition-colors hover:bg-black hover:text-white">
                   Enroll Now
                 </button>
-                <span className="text-[14px] font-bold text-[#000000] px-10">{course.price}</span>
+                <span className="text-[14px] font-bold text-[#000000] pr-[170px]">{course.price}</span>
               </div>
             </div>
           ))}

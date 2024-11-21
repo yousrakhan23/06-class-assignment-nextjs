@@ -5,7 +5,7 @@ import logo from "../public/images/Ddsgnr Library (1).svg"
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white border-t border-gray-200 py-8 px-4 md:px-16">
+    <footer className="border-t border-gray-200 py-8 px-4 md:px-16">
       {/* Newsletter Section */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-6">
         <div>
@@ -22,11 +22,11 @@ const Footer: React.FC = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-1 px-4 py-2 border border-[#000000] text-[#505050] rounded-md focus:outline-none text-sm"
+              className="flex-1 px-4 py-2 border border-[#000000] text-[#000000] rounded-md focus:outline-none text-sm"
             />
             <button
               type="submit"
-              className="px-5 py-2 text-sm border border-[#000000] text-[#505050] rounded-md"
+              className="px-5 py-2 text-sm border border-[#000000] text-[#000000] rounded-md"
             >
               Subscribe
             </button>
@@ -87,42 +87,38 @@ const Footer: React.FC = () => {
       <hr className="border-t border-gray-300 my-8" />
 
       {/* Bottom Section */}
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-[#000000] text-sm">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between  text-[#000000] text-sm">
         <p>© 2023 Ddsgnr. All rights reserved.</p>
-        <div className="flex space-x-2 mt-2 md:mt-0">
-          <a href="#" className="underline">Privacy Policy</a>
-          <a href="#" className="underline">Terms of Service</a>
-          <a href="#" className="underline">Cookies Settings</a>
+        <div className="flex mr-[27rem] space-x-3 mt-2 md:mt-0 ">
+          <p className="underline">Privacy Policy</p>
+          <p className="underline">Terms of Service</p>
+          <p className="underline">Cookies Settings</p>
         </div>
         <div className="flex space-x-4 mt-4 md:mt-0">
-          <a
-            href="#"
+          <div
             aria-label="Facebook"
             className="text-[#000000]"
           >
             <FaFacebook size={20} />
-          </a>
-          <a
-            href="#"
+          </div>
+          <div
             aria-label="Instagram"
             className="text-[#000000]"
           >
             <FaInstagram size={20} />
-          </a>
-          <a
-            href="#"
+          </div>
+          <div
             aria-label="Twitter"
             className="text-[#000000]"
           >
             <FaTwitter size={20} />
-          </a>
-          <a
-            href="#"
+          </div>
+          <div
             aria-label="LinkedIn"
             className="text-[#000000]"
           >
             <FaLinkedin size={20} />
-          </a>
+          </div>
         </div>
       </div>
     </footer>

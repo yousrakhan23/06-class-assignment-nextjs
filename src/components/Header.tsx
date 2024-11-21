@@ -9,7 +9,7 @@ const fontRoboto = Roboto({ subsets: ['latin'], weight: "500" });
 const Header = () => {
     return (
 
-        <div className="bg-[#FFFFFF] w-[1280px] h-[7678px] top-[100px] left-[100px] ">
+        <div className="bg-[#FFFFFF] top-[100px] left-[100px] ">
 
             <header className="w-[1577px] h-[54px] top-[100px] left-[100px] pr-[64px] pl-[62px] bg-[#F7F7F7] box-shadow: 0px -1px 0px 0px #000000 inset">
 

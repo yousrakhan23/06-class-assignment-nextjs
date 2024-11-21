@@ -11,10 +11,10 @@ import logo6 from '../public/images/logo6.png';
 const HeroSection: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
-      {/* Hero Section */}
+      
       <div className="py-12 md:py-16 lg:py-0">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
-          {/* Text Section */}
+          
           <div className="space-y-6">
             <h1 className="text-5xl sm:text-4xl md:text-5xl font-bold tracking-tight text-black">
               Learn new skills online with ease
@@ -32,12 +32,12 @@ const HeroSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Image Section */}
-          <div className="relative w-full h-auto">
-            <div className="bg-gray-100 rounded-lg overflow-hidden">
+         
+          <div className="relative w-full h-auto ml-[148px]">
+            <div className="bg-gray-100 overflow-hidden">
               <Image
                 src={heroSectionImage}
-                alt="Student with notebook"
+                alt="hero-Section-Image"
                 className="object-cover"
                 layout="responsive"
                 width={720}
@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Trusted By Section */}
+        
         <div className="mt-16 flex flex-col items-center gap-8 sm:flex-row sm:justify-between">
           <p className="text-2xl sm:text-3xl font-bold text-black text-center sm:text-left">
             Trusted by 2000+ companies worldwide.
