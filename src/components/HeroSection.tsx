@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+
 import heroSectionImage from '../public/images/heroSection_image.png';
 import logo1 from '../public/images/logo1.png';
 import logo2 from '../public/images/logo2.png';
@@ -33,11 +34,11 @@ const HeroSection: React.FC = () => {
           </div>
 
          
-          <div className="relative w-full h-auto ml-[148px]">
+          <div className="relative w-full">
             <div className="bg-gray-100 overflow-hidden">
               <Image
                 src={heroSectionImage}
-                alt="hero-Section-Image"
+                alt="Hero Section Image"
                 className="object-cover"
                 layout="responsive"
                 width={720}
@@ -46,6 +47,7 @@ const HeroSection: React.FC = () => {
               />
             </div>
           </div>
+
         </div>
 
         

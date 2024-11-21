@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
                     alt="logo"
                     width={130.6}
                     height={41}
-                    className="pt-[39px] pb-[29px] gap-[10.5px]  ml-[100px] "
+                    className="pt-[39px] pb-[29px] gap-[10.5px] ml-[10px]"
                     />
           
         </div>
@@ -87,40 +87,52 @@ const Footer: React.FC = () => {
       <hr className="border-t border-gray-300 my-8" />
 
       {/* Bottom Section */}
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between  text-[#000000] text-sm">
-        <p>© 2023 Ddsgnr. All rights reserved.</p>
-        <div className="flex mr-[27rem] space-x-3 mt-2 md:mt-0 ">
-          <p className="underline">Privacy Policy</p>
-          <p className="underline">Terms of Service</p>
-          <p className="underline">Cookies Settings</p>
-        </div>
-        <div className="flex space-x-4 mt-4 md:mt-0">
-          <div
-            aria-label="Facebook"
-            className="text-[#000000]"
-          >
-            <FaFacebook size={20} />
-          </div>
-          <div
-            aria-label="Instagram"
-            className="text-[#000000]"
-          >
-            <FaInstagram size={20} />
-          </div>
-          <div
-            aria-label="Twitter"
-            className="text-[#000000]"
-          >
-            <FaTwitter size={20} />
-          </div>
-          <div
-            aria-label="LinkedIn"
-            className="text-[#000000]"
-          >
-            <FaLinkedin size={20} />
-          </div>
-        </div>
-      </div>
+      <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between text-gray-800 text-sm">
+  <p className="text-center md:text-left">
+    2023 Ddsgnr. All rights reserved.
+  </p>
+
+  <div className="flex space-x-6 mt-4 md:mt-0">
+    <div  className="hover:underline">
+      Privacy Policy
+    </div>
+    <div  className="hover:underline">
+      Terms of Service
+    </div>
+    <div className="hover:underline">
+      Cookies Settings
+    </div>
+  </div>
+
+  <div className="flex space-x-4 mt-4 md:mt-0">
+    <div
+      
+      aria-label="Facebook"
+      className="text-gray-800"
+    >
+      <FaFacebook size={20} />
+    </div>
+    <div
+      aria-label="Instagram"
+      className="text-gray-800"
+    >
+      <FaInstagram size={20} />
+    </div>
+    <div
+      aria-label="Twitter"
+      className="text-gray-800"
+    >
+      <FaTwitter size={20} />
+    </div>
+    <div
+      aria-label="LinkedIn"
+      className="text-gray-800 "
+    >
+      <FaLinkedin size={20} />
+    </div>
+  </div>
+</div>
+
     </footer>
   );
 };
