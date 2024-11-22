@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import CourseCategory from "../components/CoursesCategory";
 import OurAchievement from "@/components/OurAchievement";
@@ -12,6 +13,7 @@ const Home = () => {
   return (
     <div >
       <Header />
+      <Navbar />
       <HeroSection />
       <CourseCategory />
       <OurAchievement />
